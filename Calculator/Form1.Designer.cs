@@ -349,7 +349,6 @@
             this.Controls.Add(this.btnPeriod);
             this.Name = "Form1";
             this.Text = "Calculator";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.OperationButton_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
